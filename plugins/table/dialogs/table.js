@@ -525,6 +525,7 @@
 						{
 						type: 'text',
 						id: 'txtSummary',
+						bidi: true,		// added by Edithk
 						requiredContent: 'table[summary]',
 						label: editor.lang.table.summary,
 						setup: function( selectedTable ) {
